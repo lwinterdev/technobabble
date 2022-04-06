@@ -14,7 +14,7 @@ export class Footer extends Component {
           by <span>lwinterdev</span>
         </div>
 
-        <div>
+        <div className='link-info'>
           <a target="_blank" rel="noreferrer" href="https://github.com/lwinterdev/technobabble.git">View Code on Github</a>
         </div>
       </div>
