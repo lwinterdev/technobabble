@@ -85,7 +85,7 @@ function Sentence() {
   function chooseRandomNumber(max_value){
     return Math.floor(Math.random()*max_value);
   }
-  
+ 
 
   function resetSentence(){
     setVerbIndex(0);
@@ -93,6 +93,7 @@ function Sentence() {
     setAdjectiveIndex(0);
     setNounIndex(0);
   }
+
 
 
   function generateNewSentence(){
@@ -144,23 +145,23 @@ function Sentence() {
 
         <div className='row'>
           
-          <button className='btn btn-primary col-2 col-md-offset-2 p-3 m-2' onClick={() => setVerbIndex(chooseRandomNumber(4))}>
+          <button style= {{'word-wrap': 'break-word', 'max-width':'180px'}} className='btn btn-primary col-2 col-md-offset-2 p-3 m-2' onClick={() => setVerbIndex(chooseRandomNumber(4))}>
             New Verb
           </button>
           
-          <button className='btn btn-primary col-2 col-md-offset-2 p-3 m-2' onClick={() => setprepIndex(chooseRandomNumber(3))}>
+          <button style= {{'word-wrap': 'break-word', 'max-width':'180px'}} className='btn btn-primary col-2 col-md-offset-2 p-3 m-2' onClick={() => setprepIndex(chooseRandomNumber(3))}>
             New Preposition
           </button>
           
-          <button className='btn btn-primary col-2 col-md-offset-2 p-3 m-2' onClick={() => setAdjectiveIndex(chooseRandomNumber(3))}>
+          <button style= {{'word-wrap': 'break-word', 'max-width':'180px'}} className='btn btn-primary col-2 col-md-offset-2 p-3 m-2' onClick={() => setAdjectiveIndex(chooseRandomNumber(3))}>
             New Adjective
           </button>
           
-          <button className='btn btn-primary col-2 col-md-offset-2 p-3 m-2' onClick={() => setNounIndex(chooseRandomNumber(3))}>
+          <button style= {{'word-wrap': 'break-word', 'max-width':'180px'}} className='btn btn-primary col-2 col-md-offset-2 p-3 m-2' onClick={() => setNounIndex(chooseRandomNumber(3))}>
             New Noun
           </button>
 
-          <button className='btn btn-success col-2 p-3 m-2' onClick={() => generateNewSentence()}>
+          <button style= {{'word-wrap': 'break-word', 'max-width':'180px'}} className='btn btn-success col-2 p-3 m-2' onClick={() => generateNewSentence()}>
             New Sentence
           </button>
 
@@ -175,6 +176,8 @@ function Sentence() {
         <button className='btn btn-secondary btn-lg row-4 p-3 m-5' onClick={() => resetSentence()}>
               Reset All
         </button>
+
+
       </div>
 
 
