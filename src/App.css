@@ -14,7 +14,6 @@
 }
 
 .App-margin-container{
-  background-color: #282c34;
   min-height: 28vh;
   display: flex;
   flex-direction: column;

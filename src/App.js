@@ -1,15 +1,21 @@
-
-import './App.css';
 import React, { useState  } from 'react';
+
+//styles
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+
+//components
 import Header from './components/Header';
 import Footer from './components/Footer';
+
+//images
 import { FaCopy } from 'react-icons/fa';
+import BackgroundImage from './images/background.jpg'
 
 
 function App() {
   return (
-    <div style={{backgroundColor: 'darkgrey'}} className="App">
+    <div  style={{'backgroundImage': `url(${BackgroundImage})`}} className="App">
       <Header/>
       
       <div className='App-margin-container'></div>
@@ -113,11 +119,11 @@ function Sentence() {
 
   return (
     
-    <div className='bg-dark'>
+    <div >
         
         {/* Show the current generated sentence */}
 
-        <div className="container bg-dark ">
+        <div className="container ">
           <div className="row text-center ">
             <h1 className="col-md-2 text-light text-center p-3 m-4 text-wrap">
               {verb}
@@ -139,7 +145,7 @@ function Sentence() {
         </div>
 
 
-      <div className="container bg-dark ">
+      <div className="container">
 
          {/* Buttons to generate a new word for each sentence element*/}
 
