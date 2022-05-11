@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/technobabble/static/css/main.ba74ccb3.css",
-    "main.js": "/technobabble/static/js/main.cf15882d.js",
+    "main.css": "/technobabble/static/css/main.ba6ecf6d.css",
+    "main.js": "/technobabble/static/js/main.ddc4d8c9.js",
     "static/js/787.b15eeb4f.chunk.js": "/technobabble/static/js/787.b15eeb4f.chunk.js",
     "static/media/background.jpg": "/technobabble/static/media/background.eff9bb2a9d6224d143ca.jpg",
     "index.html": "/technobabble/index.html",
-    "main.ba74ccb3.css.map": "/technobabble/static/css/main.ba74ccb3.css.map",
-    "main.cf15882d.js.map": "/technobabble/static/js/main.cf15882d.js.map",
+    "main.ba6ecf6d.css.map": "/technobabble/static/css/main.ba6ecf6d.css.map",
+    "main.ddc4d8c9.js.map": "/technobabble/static/js/main.ddc4d8c9.js.map",
     "787.b15eeb4f.chunk.js.map": "/technobabble/static/js/787.b15eeb4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba74ccb3.css",
-    "static/js/main.cf15882d.js"
+    "static/css/main.ba6ecf6d.css",
+    "static/js/main.ddc4d8c9.js"
   ]
 }
